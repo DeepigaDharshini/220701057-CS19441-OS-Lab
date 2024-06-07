@@ -30,7 +30,7 @@ count=count+1
 }
 END{
 {#action part
-print “no of employees are=”NR/count+1
+print “no of employees are=”,count+1
 print “total pay=”,pay
 print “average pay=”,pay/count
 }
